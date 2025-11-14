@@ -10,9 +10,9 @@ const ProfileSidebar = () => {
             alt="Profile"
             className="w-32 h-32 rounded-full border-4 border-primary/20 object-cover mb-4"
           />
-          <h2 className="text-xl font-bold text-foreground mb-1">Alex Johnson</h2>
-          <p className="text-sm text-muted-foreground mb-1">ID: CS2024-001</p>
-          <p className="text-sm text-primary font-medium mb-4">Computer Science</p>
+          <h2 className="text-xl font-bold text-foreground mb-1">Abhijna N</h2>
+          <p className="text-sm text-muted-foreground mb-1">USN: 4MT23AI003</p>
+          <p className="text-sm text-primary font-medium mb-4">AIML Engineering</p>
         </div>
         
         <div className="mt-6 pt-6 border-t border-border">
