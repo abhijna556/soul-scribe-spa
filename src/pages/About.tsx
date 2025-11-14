@@ -5,8 +5,8 @@ const About = () => {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold text-foreground mb-6">About Me</h1>
           <div className="bg-card rounded-lg shadow-[var(--shadow-card)] border border-border p-8">
-            <p className="text-foreground/90 mb-4 leading-relaxed">
-              Welcome! I'm Alex Johnson, a passionate computer science student and developer
+          <p className="text-foreground/90 mb-4 leading-relaxed">
+              Welcome! I'm Abhijna N, a passionate AIML engineering student and developer
               with a deep interest in creating meaningful digital experiences.
             </p>
             <p className="text-foreground/90 mb-4 leading-relaxed">
