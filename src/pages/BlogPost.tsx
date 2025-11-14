@@ -14,75 +14,39 @@ const blogPostData: Record<number, {
   content: string[];
 }> = {
   1: {
-    title: "Getting Started with React and TypeScript",
-    date: "November 10, 2025",
-    likes: 42,
-    image: blogTech,
+    title: "My Learnings This Week",
+    date: "November 14, 2025",
+    likes: 24,
+    image: blogLearning,
     content: [
-      "React and TypeScript together create a powerful combination for building modern web applications. TypeScript brings static typing to JavaScript, catching errors early and improving code quality.",
-      "Setting up a React TypeScript project has never been easier with tools like Vite. The development experience is smooth, with fast refresh and excellent type inference.",
-      "Key benefits include better IDE support, refactoring confidence, and self-documenting code through type definitions. Your team will thank you for the improved developer experience.",
-      "Start by defining your component props with interfaces, use type inference where possible, and embrace the compiler as your friend. TypeScript will help you write more maintainable code."
+      "This week has been incredibly productive and full of new discoveries. I've been diving deep into various aspects of AI and machine learning, expanding my knowledge base significantly.",
+      "One of the key takeaways was understanding how neural networks process information layer by layer. Each layer extracts different features from the input data, building up to more complex representations.",
+      "I also spent time working on Python programming, particularly focusing on NumPy and Pandas libraries. These tools are essential for data manipulation and analysis in machine learning projects.",
+      "The practical exercises helped solidify theoretical concepts. Building a simple classifier from scratch gave me insights into the mathematics behind ML algorithms."
     ]
   },
   2: {
-    title: "The Power of Tailwind CSS",
-    date: "November 8, 2025",
+    title: "Research on AI Models",
+    date: "November 12, 2025",
     likes: 38,
-    image: blogTech,
+    image: blogResearch,
     content: [
-      "Tailwind CSS revolutionizes how we think about styling web applications. Instead of writing custom CSS, you compose designs using utility classes directly in your markup.",
-      "The utility-first approach might seem verbose at first, but it leads to more consistent designs and faster development. No more context switching between files!",
-      "Tailwind's design system is built-in, with carefully crafted spacing, colors, and typography scales. This ensures your designs are visually coherent without extra effort.",
-      "With JIT mode, you get instant compilation and purging, resulting in tiny production bundles. Plus, the developer experience with autocomplete and IntelliSense is phenomenal."
+      "Artificial Intelligence models have evolved dramatically over the past few years. From simple linear models to complex transformer architectures, the field continues to push boundaries.",
+      "Current research focuses on making AI models more efficient and interpretable. Large language models like GPT and BERT have shown remarkable capabilities in understanding and generating human language.",
+      "Computer vision models such as ResNet and YOLO have revolutionized image recognition and object detection. These architectures use clever techniques like skip connections and anchor boxes to achieve high accuracy.",
+      "The future of AI research lies in developing models that are not just powerful, but also ethical, sustainable, and accessible to everyone. Energy-efficient training methods and few-shot learning are promising areas."
     ]
   },
   3: {
-    title: "Understanding Machine Learning Fundamentals",
-    date: "November 5, 2025",
-    likes: 56,
+    title: "Understanding Machine Learning Basics",
+    date: "November 10, 2025",
+    likes: 42,
     image: blogResearch,
     content: [
-      "Machine learning has transformed how we solve complex problems. At its core, ML is about teaching computers to learn from data and make predictions or decisions.",
-      "The journey begins with understanding the difference between supervised, unsupervised, and reinforcement learning. Each approach tackles different types of problems.",
-      "Key concepts include training data, features, models, and evaluation metrics. These building blocks form the foundation of any ML project.",
-      "Start with simple algorithms like linear regression and gradually move to more complex models. Python libraries like scikit-learn make getting started accessible to everyone."
-    ]
-  },
-  4: {
-    title: "Building RESTful APIs with Node.js",
-    date: "November 2, 2025",
-    likes: 45,
-    image: blogTech,
-    content: [
-      "RESTful APIs are the backbone of modern web applications. Node.js, with its event-driven architecture, is perfect for building fast, scalable APIs.",
-      "Express.js simplifies routing, middleware, and request handling. Combined with modern JavaScript features, you can build clean, maintainable API servers.",
-      "Important principles include proper HTTP method usage, meaningful status codes, and consistent endpoint naming. These conventions make your API intuitive to use.",
-      "Don't forget about authentication, error handling, and validation. Tools like JWT, express-validator, and proper error middleware are essential for production-ready APIs."
-    ]
-  },
-  5: {
-    title: "Data Structures Every Developer Should Know",
-    date: "October 28, 2025",
-    likes: 67,
-    image: blogLearning,
-    content: [
-      "Data structures are fundamental to programming. They determine how we store, organize, and access data efficiently in our applications.",
-      "Arrays, linked lists, stacks, and queues are the basics. Understanding when to use each one can dramatically improve your code's performance.",
-      "Trees and graphs unlock solutions to complex problems like hierarchical data and network relationships. Binary search trees, in particular, offer logarithmic search times.",
-      "Hash tables provide near-constant time lookups, making them invaluable for caching and fast data retrieval. Master these structures to become a better developer."
-    ]
-  },
-  6: {
-    title: "Web Performance Optimization Techniques",
-    date: "October 25, 2025",
-    likes: 52,
-    image: blogTech,
-    content: [
-      "Web performance directly impacts user experience and conversion rates. Even small improvements in load time can significantly boost engagement.",
-      "Start with the basics: optimize images, minify assets, and leverage browser caching. These quick wins often provide the biggest performance gains.",
-      "Code splitting and lazy loading reduce initial bundle size, making your app load faster. Only load what users need, when they need it.",
-      "Measure everything with tools like Lighthouse and WebPageTest. Performance optimization is an iterative process guided by real data, not guesswork."
+      "Machine learning is fundamentally about teaching computers to learn patterns from data. Instead of explicitly programming rules, we provide examples and let algorithms discover the patterns.",
+      "There are three main types of machine learning: supervised learning (with labeled data), unsupervised learning (finding patterns in unlabeled data), and reinforcement learning (learning through trial and error).",
+      "Key concepts include training data, features, models, and evaluation metrics. Features are the input variables we use to make predictions, while the model is the mathematical representation of patterns.",
+      "Getting started is easier than ever with libraries like scikit-learn and TensorFlow. Start with simple algorithms like linear regression, then gradually move to more complex models as you build confidence."
     ]
   },
 };
