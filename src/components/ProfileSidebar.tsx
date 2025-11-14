@@ -3,6 +3,9 @@ const ProfileSidebar = () => {
     <aside className="w-full lg:w-64 flex-shrink-0">
       <div className="sticky top-20 bg-card rounded-lg shadow-[var(--shadow-card)] p-6 border border-border">
         <div className="flex flex-col items-center text-center">
+          <div className="w-32 h-32 rounded-full border-4 border-primary/20 bg-muted mb-4 flex items-center justify-center">
+            <span className="text-4xl text-muted-foreground font-bold">AN</span>
+          </div>
           <h2 className="text-xl font-bold text-foreground mb-1">Abhijna N</h2>
           <p className="text-sm text-muted-foreground mb-1">USN: 4MT23AI003</p>
           <p className="text-sm text-primary font-medium mb-4">AIML Engineering</p>
